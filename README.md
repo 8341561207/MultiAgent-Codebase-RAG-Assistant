@@ -1,5 +1,6 @@
 # Multi-Agent Codebase RAG Assistant
-
+deployed app link:
+https://multiagent-codebase-rag-assistant-by-reyyikusum.streamlit.app/
 Ask questions about any Python codebase and auto-generate documentation using AI.
 
 ## What it does
