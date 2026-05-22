@@ -38,12 +38,12 @@ GROQ_API_KEY=your_key_here
 
 3. Run
 ```bash
-streamlit run main_upgraded.py
+streamlit run main.py
 ```
 
 ## Files
-- `rag_upgraded.py` — all agents and logic
-- `main_upgraded.py` — web interface
+- `rag.py` — all agents and logic
+- `main.py` — web interface
 
 ## Get free Groq API key
 https://console.groq.com
@@ -52,13 +52,23 @@ https://console.groq.com
 Quick summary:
 
 Import	                        Purpose
+
 uuid4	                        Unique IDs
+
 load_dotenv	                 API keys
+
 Path	                        Handle file paths
+
 UnstructuredURLLoader	        Load website content
+
 RecursiveCharacterTextSplitter	Split text into chunks
+
 Chroma	                        Vector database
+
 ChatGroq	                Connect to Groq LLM
+
 HuggingFaceEmbeddings	        Create embeddings
+
 ast	                       Analyze Python code structure
+
 os	                        Work with files/folders
