@@ -51,24 +51,24 @@ https://console.groq.com
 
 Quick summary:
 
-Import	                        Purpose
+Import	            -            Purpose
 
-uuid4	                        Unique IDs
+uuid4	            -           Unique IDs
 
-load_dotenv	                 API keys
+load_dotenv	    -             API keys
 
-Path	                        Handle file paths
+Path	            -            Handle file paths
 
-UnstructuredURLLoader	        Load website content
+UnstructuredURLLoader  -      Load website content
 
-RecursiveCharacterTextSplitter	Split text into chunks
+RecursiveCharacterTextSplitter -	Split text into chunks
 
-Chroma	                        Vector database
+Chroma	          -              Vector database
 
-ChatGroq	                Connect to Groq LLM
+ChatGroq	     -          Connect to Groq LLM
 
-HuggingFaceEmbeddings	        Create embeddings
+HuggingFaceEmbeddings	-        Create embeddings
 
-ast	                       Analyze Python code structure
+ast	          -             Analyze Python code structure
 
-os	                        Work with files/folders
+os	          -              Work with files/folders
