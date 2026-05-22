@@ -1,0 +1,13 @@
+# Secret keys - never upload this
+.env
+
+# ChromaDB stored data
+resources/vectorstore/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
